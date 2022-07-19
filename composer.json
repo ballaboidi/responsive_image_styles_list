@@ -2,6 +2,7 @@
     "name": "ballaboidi/responsive_image_styles_list",
     "description": "Returns an Overview of all Responsive Image Styles in px",
     "type": "drupal-module",
+    "version": "1.0",
     "authors": [
         {
             "name": "Mario Autherith",
