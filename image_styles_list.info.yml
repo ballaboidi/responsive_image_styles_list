@@ -1,0 +1,8 @@
+name: Image Styles List
+type: module
+description: Lists all image styles and Sizes
+package: Custom
+core_version_requirement: ^8.8 || ^9
+
+dependencies:
+  - drupal:media

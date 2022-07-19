@@ -1,0 +1,13 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+function image_styles_list_theme($existing, $type, $theme, $path) {
+  return [
+    'list_template' => [
+      'variables' => [
+        'image_styles' => []
+      ],
+    ],
+  ];
+}

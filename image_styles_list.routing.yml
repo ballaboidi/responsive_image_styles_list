@@ -1,0 +1,7 @@
+image_styles_list.construct:
+  path: '/admin/image-styles'
+  defaults:
+    _controller: '\Drupal\image_styles_list\Controller\ImageStylesListController::content'
+    _title: 'Image Style List'
+  requirements:
+    _permission: 'access content'

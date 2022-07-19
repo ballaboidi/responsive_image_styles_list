@@ -1,0 +1,12 @@
+{
+    "name": "ballaboidi/responsive_image_styles_list",
+    "description": "Returns an Overview of all Responsive Image Styles in px",
+    "type": "drupal-module",
+    "authors": [
+        {
+            "name": "Mario Autherith",
+            "email": "mario.ta@gmx.at"
+        }
+    ],
+    "require": {}
+}

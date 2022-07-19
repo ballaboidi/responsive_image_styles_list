@@ -1,0 +1,28 @@
+<article>
+  <table style="max-width: 870px;">
+    <tr>
+      <th>
+        Name
+      </th>
+      <th>
+       Size Standard
+      </th>
+      <th>
+        Size Retina
+      </th>
+    </tr>
+  {% for style in image_styles %}
+    <tr>
+      <td>
+        {{ style.name }}
+      </td>
+      <td>
+        {{ style.sm.width }} x {{ style.sm.height }}
+      </td>
+      <td>
+        {{ style.lg.width }} x {{ style.lg.height }}
+      </td>
+    </tr>
+  {% endfor %}
+  </table>
+</article>

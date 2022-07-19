@@ -1,0 +1,5 @@
+image_styles_list.construct:
+  title: 'Image Styles'
+  route_name: image_styles_list.construct
+  weight: 100
+  parent: system.admin_config_development
