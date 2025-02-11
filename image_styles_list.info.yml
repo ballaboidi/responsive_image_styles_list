@@ -2,7 +2,7 @@ name: Responsive Image Styles List
 type: module
 description: Lists all Responsive image styles and Sizes
 package: Custom
-core_version_requirement: ^8.8 || ^9
+core_version_requirement: ^8.8 || ^9 || ^10 || ^11
 
 dependencies:
   - drupal:media,
